@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2025-02-26 20:05+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/settings/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Repülőgépes mód"
 
@@ -160,42 +160,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuális"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Eszközök"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Repülőgépes mód engedélyezve"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Amíg repülőgépes módban van, a készülék internethozzáférése és minden más "
-"vezeték nélküli kapcsolat le lesz tiltva.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Nem tudja majd böngészni az internetet és hálózati kapcsolatot vagy "
-"internethozzáférést igénylő alkalmazást sem tud majd használni.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Az internetet nem igénylő alkalmazásokat és egyéb funkciókat nem érinti."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -205,16 +176,16 @@ msgstr "Ez a vezetékes hálózat nem érhető el"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Nincs csatlakoztatva vagy meg van törve a hálózati kábel"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Haladó beállítások…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuális hálózat: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Vezetékes"
 
@@ -393,16 +364,16 @@ msgstr "Bezárás"
 msgid "Unknown Device"
 msgstr "Ismeretlen eszköz"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Ismeretlen típus: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Sikertelen leválasztás"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Nem sikerült lecsatlakozni a hálózatról"
 
@@ -588,6 +559,31 @@ msgstr "proxy.pelda.hu"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Repülőgépes mód engedélyezve"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Amíg repülőgépes módban van, a készülék internethozzáférése és minden más "
+#~ "vezeték nélküli kapcsolat le lesz tiltva.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Nem tudja majd böngészni az internetet és hálózati kapcsolatot vagy "
+#~ "internethozzáférést igénylő alkalmazást sem tud majd használni.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Az internetet nem igénylő alkalmazásokat és egyéb funkciókat nem érinti."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Kiválasztott VPN elfelejtése…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-20 08:28+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/switchboard/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Vliegtuigmodus"
 
@@ -160,44 +160,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtueel"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Apparaten"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Vliegtuigmodus is ingeschakeld"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Tijdens het gebruik van Vliegtuigmodus zal het internettoegang van uw "
-"apparaat en toegang tot alle draadloze en kabel verbindingen worden "
-"stilgelegd.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"U zult geen gebruik kunnen maken van het internet of applicaties die een "
-"Internet- of netwerkverbinding nodig hebben.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Toepassingen en andere functies die geen gebruik maken van het internet "
-"zullen hun huidige werking behouden."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -207,16 +176,16 @@ msgstr "Dit bedrade netwerk is niet beschikbaar"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Er is geen netwerkkabel aangesloten of het is mogelijk beschadigd"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Geavanceerde instellingen…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtueel netwerk: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Bekabeld"
 
@@ -393,16 +362,16 @@ msgstr "Sluiten"
 msgid "Unknown Device"
 msgstr "Onbekend apparaat"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Onbekend type: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Verbinding verbreken mislukt"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr ""
 "Het is niet mogelijk om de verbinding met het huidige netwerk te verbreken"
@@ -591,6 +560,33 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Poort:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Vliegtuigmodus is ingeschakeld"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Tijdens het gebruik van Vliegtuigmodus zal het internettoegang van uw "
+#~ "apparaat en toegang tot alle draadloze en kabel verbindingen worden "
+#~ "stilgelegd.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "U zult geen gebruik kunnen maken van het internet of applicaties die een "
+#~ "Internet- of netwerkverbinding nodig hebben.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Toepassingen en andere functies die geen gebruik maken van het internet "
+#~ "zullen hun huidige werking behouden."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Vergeet het geselecteerde VPN…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -146,7 +146,7 @@ msgstr "ВЛАН"
 msgid "Proxy"
 msgstr "Посредник"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Режим у авиону"
 
@@ -162,42 +162,13 @@ msgstr "Врућа тачка"
 msgid "VPN"
 msgstr "ВПН"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Виртуелно"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Уређаји"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Режим у авиону је укључен"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Док је у режиму авиона приступ Интернету и све бежичне и жичане везе вашег "
-"уређаја биће обустављене.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Нећете моћи да разгледате веб или да користите програме који захтевају "
-"мрежну везу или приступ Интернету.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Ово неће утицати на програме и друге функције које не захтевају Интернет."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -207,16 +178,16 @@ msgstr "Ова жичана мрежа није доступна"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Мрежни кабл није прикључен или је оштећен"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Напредне поставке…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Виртуелна мрежа: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Жичана"
 
@@ -394,16 +365,16 @@ msgstr "Затвори"
 msgid "Unknown Device"
 msgstr "Непознат уређај"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Непозната врста: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Нисам успео да прекинем везу"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Не могу да прекинем везу са тренутно повезаном мрежом"
 
@@ -616,6 +587,31 @@ msgstr "proxy.primer.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Прикључник:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Режим у авиону је укључен"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Док је у режиму авиона приступ Интернету и све бежичне и жичане везе "
+#~ "вашег уређаја биће обустављене.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Нећете моћи да разгледате веб или да користите програме који захтевају "
+#~ "мрежну везу или приступ Интернету.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Ово неће утицати на програме и друге функције које не захтевају Интернет."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Заборави изабрану ВПН…"

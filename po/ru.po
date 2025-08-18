@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-13 07:16+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/switchboard/"
@@ -145,7 +145,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Прокси-сервер"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Режим полёта"
 
@@ -161,43 +161,13 @@ msgstr "Точка доступа"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Виртуальные"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Устройства"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Режим полёта активирован"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Во время «Режима полёта» доступ вашего устройства к сети Интернет и другим "
-"проводным и беспроводным соединениям будет приостановлен.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Вы не сможете просматривать веб-сайты или использовать приложения, которым "
-"необходимо соединение с Интернетом.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Приложения и другие функции, не требующие доступа в Интернет, не будут "
-"затронуты."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -207,16 +177,16 @@ msgstr "Эта проводная сеть недоступна"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Сетевой кабель не подключен или, возможно, поврежден"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Дополнительные настройки…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Виртуальная сеть: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Проводная сеть"
 
@@ -390,16 +360,16 @@ msgstr "Закрыть"
 msgid "Unknown Device"
 msgstr "Неизвестное устройство"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Неизвестный тип: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Не удалось отключиться"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Невозможно отключиться от сети, подключенной в данный момент"
 
@@ -587,6 +557,32 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Порт:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Режим полёта активирован"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Во время «Режима полёта» доступ вашего устройства к сети Интернет и "
+#~ "другим проводным и беспроводным соединениям будет приостановлен.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Вы не сможете просматривать веб-сайты или использовать приложения, "
+#~ "которым необходимо соединение с Интернетом.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Приложения и другие функции, не требующие доступа в Интернет, не будут "
+#~ "затронуты."
 
 #~ msgid "Socks Host"
 #~ msgstr "Хост Socks"

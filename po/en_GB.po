@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-13 07:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Aeroplane Mode"
 
@@ -160,43 +160,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtual"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Devices"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Aeroplane Mode Is Enabled"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"While in Aeroplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -206,16 +176,16 @@ msgstr "This Wired Network is Unavailable"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "A network cable is not plugged in or may be broken"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Advanced Settings…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtual network: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Wired"
 
@@ -388,16 +358,16 @@ msgstr "Close"
 msgid "Unknown Device"
 msgstr "Unknown Device"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Unknown type: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Failed To Disconnect"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Unable to disconnect from the currently connected network"
 
@@ -583,6 +553,32 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Aeroplane Mode Is Enabled"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "While in Aeroplane Mode your device's Internet access and any wireless "
+#~ "and ethernet connections, will be suspended.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
 
 #~ msgid "Socks Host"
 #~ msgstr "SOCKS Host"

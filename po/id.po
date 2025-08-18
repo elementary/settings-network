@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2023-06-02 08:07+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
-"io>\n"
+"Last-Translator: Faisal Rachmadin "
+"<frachmadin@users.noreply.l10n.elementary.io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/switchboard/"
 "switchboard-plug-networking/id/>\n"
 "Language: id\n"
@@ -140,7 +140,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Mode Pesawat"
 
@@ -156,43 +156,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtual"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Perangkat"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Mode Pesawat Diaktifkan"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Saat berada dalam Mode Pesawat akses Internet perangkat Anda dan koneksi "
-"nirkabel dan ethernet apapun, akan ditangguhkan.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Anda tidak akan dapat menjelajah web atau menggunakan aplikasi yang "
-"memerlukan koneksi jaringan atau akses Internet.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Aplikasi dan fungsi lain yang tidak memerlukan Internet tidak akan "
-"terpengaruh."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -202,16 +172,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Pengaturan Lanjutan…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Jaringan virtual: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 #, fuzzy
 msgid "Wired"
 msgstr "Nirkabel"
@@ -388,17 +358,17 @@ msgstr ""
 msgid "Unknown Device"
 msgstr "Perangkat tidak diketahui"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tipe tidak diketahui: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 #, fuzzy
 msgid "Failed To Disconnect"
 msgstr "Gagal terhubung"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Tidak dapat memutuskan sambungan dari jaringan yang saat ini terhubung"
 
@@ -613,6 +583,32 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Mode Pesawat Diaktifkan"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Saat berada dalam Mode Pesawat akses Internet perangkat Anda dan koneksi "
+#~ "nirkabel dan ethernet apapun, akan ditangguhkan.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Anda tidak akan dapat menjelajah web atau menggunakan aplikasi yang "
+#~ "memerlukan koneksi jaringan atau akses Internet.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Aplikasi dan fungsi lain yang tidak memerlukan Internet tidak akan "
+#~ "terpengaruh."
 
 #, fuzzy
 #~ msgid "Edit VPN connection…"

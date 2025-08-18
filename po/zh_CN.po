@@ -7,12 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2025-08-08 13:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
-"l10n.elementaryos.org/projects/settings/switchboard-plug-networking/zh_Hans/>"
-"\n"
+"l10n.elementaryos.org/projects/settings/switchboard-plug-networking/zh_Hans/"
+">\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,7 +145,7 @@ msgstr "无线网络"
 msgid "Proxy"
 msgstr "代理"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "飞行模式"
 
@@ -161,38 +161,13 @@ msgstr "热点"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "虚拟"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "设备"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "飞行模式已启用"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"飞行模式启用时，设备的网络连接包括所有无线和有线网络都将被禁用。\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr "您将无法浏览网页或使用任何需要联网的应用程序。\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr "其他无需网络连接的应用程序则不受影响。"
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -202,16 +177,16 @@ msgstr "有线网络不可用"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "未插入网线或网线故障"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "高级设置…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "虚拟网络： %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "有线网络"
 
@@ -301,7 +276,8 @@ msgid ""
 "A Virtual Private Network can hide network traffic on public networks or "
 "from your internet service provider. It can't protect passwords from "
 "attackers or prevent websites from identifying you."
-msgstr "虚拟专用网络（VPN）可以在公共网络或你的互联网服务提供商面前隐藏网络流量，但它"
+msgstr ""
+"虚拟专用网络（VPN）可以在公共网络或你的互联网服务提供商面前隐藏网络流量，但它"
 "无法保护你的密码免受攻击者窃取，也无法阻止网站识别你的身份。"
 
 #: src/Views/VPNPage.vala:37
@@ -380,16 +356,16 @@ msgstr "关闭"
 msgid "Unknown Device"
 msgstr "未知设备"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "未知类型： %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "连接失败"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "无法断开当前已连接的网络"
 
@@ -573,6 +549,27 @@ msgstr "示例：proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "端口："
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "飞行模式已启用"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "飞行模式启用时，设备的网络连接包括所有无线和有线网络都将被禁用。\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr "您将无法浏览网页或使用任何需要联网的应用程序。\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr "其他无需网络连接的应用程序则不受影响。"
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "忘记所选的 VPN…"

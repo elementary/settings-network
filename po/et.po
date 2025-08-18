@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Estonian <https://l10n.elementary.io/projects/switchboard/"
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Proxy"
 msgstr "Proksi"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Lennukirežiim"
 
@@ -164,42 +164,13 @@ msgstr "Võrgu jagamine"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuaalne:"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Seadmed"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Lennurežiim on sisselülitatud"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Lennurežiimi lülitudes keelatakse internetiühendus täielikult, kõik "
-"võrguühendused keelatakse.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Veebi lehitsemine ja võrku vajavate rakenduste kasutamine pole võimalik.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Rakendused ja teised funktsioonid, mis ei vaja interneti töötavad samamoodi "
-"edasi."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -209,16 +180,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Täpsemad seaded…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuaalne võrk: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 #, fuzzy
 msgid "Wired"
 msgstr "Juhtmevaba"
@@ -404,17 +375,17 @@ msgstr "Sulgemine"
 msgid "Unknown Device"
 msgstr "Tundmatu seade"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tundmatu tüüp: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 #, fuzzy
 msgid "Failed To Disconnect"
 msgstr "Ühendus ebaõnnestus"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 #, fuzzy
 msgid "Unable to disconnect from the currently connected network"
 msgstr ""
@@ -632,6 +603,31 @@ msgstr "proxy.näide.ee"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Lennurežiim on sisselülitatud"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Lennurežiimi lülitudes keelatakse internetiühendus täielikult, kõik "
+#~ "võrguühendused keelatakse.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Veebi lehitsemine ja võrku vajavate rakenduste kasutamine pole võimalik.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Rakendused ja teised funktsioonid, mis ei vaja interneti töötavad "
+#~ "samamoodi edasi."
 
 #, fuzzy
 #~ msgid "Edit VPN connection…"

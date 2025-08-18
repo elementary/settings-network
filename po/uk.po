@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-18 22:16+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/switchboard/"
@@ -145,7 +145,7 @@ msgstr "Бездротова локальна мережа"
 msgid "Proxy"
 msgstr "Проксі-сервер"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Режим «У літаку»"
 
@@ -161,42 +161,13 @@ msgstr "Точка доступу"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Віртуальні"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Пристрої"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Режим «У літаку» ввімкнено"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"В режимі «У Літаку» доступ до Інтернету та інших бездротових та дротових "
-"з'єднань буде зупинено.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Ви не зможете переглядати мережу або користуватися застосунками, що "
-"вимагають під'єднання до мережі або доступу до Інтернету.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Застосунки та інші функції, які не потребують Інтернету, не зазнають змін."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -206,16 +177,16 @@ msgstr "Ця дротова мережа недоступна"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Мережний кабель не під'єднано або, можливо, пошкоджено"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Додаткові налаштування…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Віртуальна мережа: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Дротова мережа"
 
@@ -390,16 +361,16 @@ msgstr "Закрити"
 msgid "Unknown Device"
 msgstr "Невідомий пристрій"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Невідомий тип: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Не вдалося від'єднатися"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Неможливо від’єднатись від поточної під'єднаної мережі"
 
@@ -587,6 +558,31 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Порт:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Режим «У літаку» ввімкнено"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "В режимі «У Літаку» доступ до Інтернету та інших бездротових та дротових "
+#~ "з'єднань буде зупинено.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Ви не зможете переглядати мережу або користуватися застосунками, що "
+#~ "вимагають під'єднання до мережі або доступу до Інтернету.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Застосунки та інші функції, які не потребують Інтернету, не зазнають змін."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Забути вибраний VPN…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/switchboard/"
@@ -146,7 +146,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Flytilstand"
 
@@ -162,43 +162,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuel"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Enheder"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Flytilstand er aktiveret"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"I flytilstand vil din enheds internetadgang samt trådløse og "
-"ethernetforbindelser, blive suspenderet.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Du vil ikke kunne gennemse webbet eller bruge applikationer der kræver en "
-"netværksforbindelse eller internetadgang.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Applikationer og andre funktioner som gør brug af internettet vil ikke blive "
-"påvirket."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -208,16 +178,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Avancerede indstillinger…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuelt netværk: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Kablet"
 
@@ -399,16 +369,16 @@ msgstr "Luk"
 msgid "Unknown Device"
 msgstr "Ukendt Enhed"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Ukendt type: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Kunne ikke afbryde forbindelsen"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Kan ikke afbryde forbindelsen fra det aktuelt tilsluttede netværk"
 
@@ -622,6 +592,32 @@ msgstr "proxy.eksempel.dk"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Flytilstand er aktiveret"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "I flytilstand vil din enheds internetadgang samt trådløse og "
+#~ "ethernetforbindelser, blive suspenderet.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Du vil ikke kunne gennemse webbet eller bruge applikationer der kræver en "
+#~ "netværksforbindelse eller internetadgang.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Applikationer og andre funktioner som gør brug af internettet vil ikke "
+#~ "blive påvirket."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Glem den valgte VPN…"

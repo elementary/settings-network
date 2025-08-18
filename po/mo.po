@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2020-10-01 18:14+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Moldovan <https://l10n.elementary.io/projects/switchboard/"
@@ -140,7 +140,7 @@ msgstr "wlan"
 msgid "Proxy"
 msgstr "Proxi"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Mod avion"
 
@@ -156,42 +156,13 @@ msgstr "hotspot"
 msgid "VPN"
 msgstr "vpn"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuală"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Dispozitive"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Modul Avion este activat"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"În modul Avion, accesul la Internet al dispozitivului dvs. și conexiunile "
-"fără fir și ethernet vor fi suspendate\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Nu veți putea naviga în internet sau să utilizați aplicații care necesită o "
-"conexiune la rețea sau acces la Internet\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Aplicațiile și alte funcții care nu necesită Internetul nu vor fi afectate."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -201,16 +172,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Setări avansate…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Rețea virtuală: %s 1"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 #, fuzzy
 msgid "Wired"
 msgstr "Fără fir"
@@ -395,17 +366,17 @@ msgstr ""
 msgid "Unknown Device"
 msgstr "Dispozitiv necunoscut"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tip necunoscut: %s 1 "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 #, fuzzy
 msgid "Failed To Disconnect"
 msgstr "Eroare de conexiune"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 #, fuzzy
 msgid "Unable to disconnect from the currently connected network"
 msgstr ""
@@ -620,6 +591,32 @@ msgstr "proxy.exemplu.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Poartă:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Modul Avion este activat"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "În modul Avion, accesul la Internet al dispozitivului dvs. și conexiunile "
+#~ "fără fir și ethernet vor fi suspendate\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Nu veți putea naviga în internet sau să utilizați aplicații care necesită "
+#~ "o conexiune la rețea sau acces la Internet\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Aplicațiile și alte funcții care nu necesită Internetul nu vor fi "
+#~ "afectate."
 
 #, fuzzy
 #~ msgid "Edit VPN connection…"

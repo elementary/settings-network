@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-06-16 20:16+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -146,7 +146,7 @@ msgstr "Wi-Fi"
 msgid "Proxy"
 msgstr "Mellomtjener"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Flymodus"
 
@@ -162,42 +162,13 @@ msgstr "Trådløst aksesspunkt"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuell"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Enheter"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "I flymodus"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"I flymodus vil enhetens Internett-tilgang og eventuelle trådløse eller "
-"kablede tilkoblinger bli avslått.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Du vil ikke være i stand til å surfe på Internett eller bruke programmer som "
-"krever en nettverkstilkobling eller Internett-tilgang.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Programmer og andre funksjoner som ikke krever Internett vil ikke bli berørt."
 
 #: src/Views/EthernetPage.vala:36
 #, fuzzy
@@ -208,16 +179,16 @@ msgstr "Dette kablede nettverket er utilgjengelig"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "En nettverkskabel er ikke tilkoblet, eller kan være ødelagt"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Avanserte instillinger…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuelt nettverk: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Kablet"
 
@@ -403,17 +374,17 @@ msgstr "Lukk"
 msgid "Unknown Device"
 msgstr "Ukjent enhet"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Ukjent type: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 #, fuzzy
 msgid "Failed To Disconnect"
 msgstr "Tilkobling mislyktes"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 #, fuzzy
 msgid "Unable to disconnect from the currently connected network"
 msgstr ""
@@ -628,6 +599,32 @@ msgstr "mellomtjener.eksempel.no"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Port:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "I flymodus"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "I flymodus vil enhetens Internett-tilgang og eventuelle trådløse eller "
+#~ "kablede tilkoblinger bli avslått.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Du vil ikke være i stand til å surfe på Internett eller bruke programmer "
+#~ "som krever en nettverkstilkobling eller Internett-tilgang.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Programmer og andre funksjoner som ikke krever Internett vil ikke bli "
+#~ "berørt."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Glem valgt VPN …"

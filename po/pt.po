@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2025-04-19 23:04+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementaryos.org/projects/settings/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Modo de avião"
 
@@ -160,43 +160,13 @@ msgstr "Hotspot Wi-Fi"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtual"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Dispositivos"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Modo de avião está ativado"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Em modo de avião o acesso à Internet e quaisquer ligações sem fios ou de "
-"ethernet do seu dispositivo serão suspensas.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Não será capaz de navegar na web nem de usar aplicações que precisem de uma "
-"ligação de rede ou acesso à Internet.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"As aplicações e outras funções que não requerem ligação à Internet não serão "
-"afetadas."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -206,16 +176,16 @@ msgstr "Esta rede por cabo não está disponível"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Um cabo de rede não está ligado ou pode estar danificado"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Definições avançadas…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Rede virtual: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Com cabo"
 
@@ -388,16 +358,16 @@ msgstr "Fechar"
 msgid "Unknown Device"
 msgstr "Dispositivo desconhecido"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tipo desconhecido: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Falha ao desligar"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Não é possível desligar da rede atualmente ligada"
 
@@ -585,6 +555,32 @@ msgstr "proxy.exemplo.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Porta:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Modo de avião está ativado"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Em modo de avião o acesso à Internet e quaisquer ligações sem fios ou de "
+#~ "ethernet do seu dispositivo serão suspensas.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Não será capaz de navegar na web nem de usar aplicações que precisem de "
+#~ "uma ligação de rede ou acesso à Internet.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "As aplicações e outras funções que não requerem ligação à Internet não "
+#~ "serão afetadas."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Esqueça a VPN seleccionada…"

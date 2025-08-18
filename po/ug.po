@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Proxy"
 msgstr "ۋاكالەتچى"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "ئايروپىلان ھالىتى"
 
@@ -164,41 +164,13 @@ msgstr "قىزىق نۇقتا"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "مەۋھۇم"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "ئۈسكۈنىلەر"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "ئايروپىلان ھالىتى قوزغىتىلدى"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"ئايروپىلان ھالىتىدە تۇرغاندا ئۈسكۈنىڭىزنىڭ ئېنتېرنىت ئۇلىنىشى، سىمسىز تور  "
-"ۋە ئېزىر تور ئۇلىنىشلىرىنىڭ ھەممىسى ئۈزۈۋىتىلىدۇ.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"تور كۆرگۈ ۋە باشقا تورغا ئۇلاشقا ياكى ئېنتىرنىت زىيارىتىگە ئىھتىياجلىق "
-"ئەپلەرنى ئىشلىتەلمەيسىز.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr "تورغا ئۇلانمىسىمۇ بولىدىغان باشقا ئەپلەر دەخلىگە ئۇچرىمايدۇ."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -208,16 +180,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "يۇقىرى دەرىجىلىك تەڭشەكلەر"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "مەۋھۇم تور: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 #, fuzzy
 msgid "Wired"
 msgstr "سىمسىز تور"
@@ -403,17 +375,17 @@ msgstr "تاقاش"
 msgid "Unknown Device"
 msgstr "نامەلۇم ئۈسكۈنە"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "نامەلۇم تېپ: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 #, fuzzy
 msgid "Failed To Disconnect"
 msgstr "ئۇلاش مەغلۇپ بولدى"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr ""
 
@@ -631,6 +603,30 @@ msgstr "ئۈلگە: proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "پورت:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "ئايروپىلان ھالىتى قوزغىتىلدى"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "ئايروپىلان ھالىتىدە تۇرغاندا ئۈسكۈنىڭىزنىڭ ئېنتېرنىت ئۇلىنىشى، سىمسىز "
+#~ "تور  ۋە ئېزىر تور ئۇلىنىشلىرىنىڭ ھەممىسى ئۈزۈۋىتىلىدۇ.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "تور كۆرگۈ ۋە باشقا تورغا ئۇلاشقا ياكى ئېنتىرنىت زىيارىتىگە ئىھتىياجلىق "
+#~ "ئەپلەرنى ئىشلىتەلمەيسىز.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr "تورغا ئۇلانمىسىمۇ بولىدىغان باشقا ئەپلەر دەخلىگە ئۇچرىمايدۇ."
 
 #, fuzzy
 #~ msgid "Edit VPN connection…"

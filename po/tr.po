@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-09-24 11:24+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/switchboard/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Vekil Sunucu"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Uçak Modu"
 
@@ -160,42 +160,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Sanal"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Aygıtlar"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Uçak Modu Etkin"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Uçak Modu etkin olduğunda cihazınızın internet erişimi, tüm kablosuz ve "
-"ethernet bağlantıları askıya alınacaktır.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Web’de gezinemez, ağ bağlantısı veya internet erişimi gerektiren "
-"uygulamaları kullanamazsınız.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"İnternet gerektirmeyen uygulamalar ve diğer işlevler etkilenmeyecektir."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -205,16 +176,16 @@ msgstr "Bu Kablolu Ağ Kullanılamıyor"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Ağ kablosu düzgün takılmamış veya kablo kopuk olabilir"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Gelişmiş Ayarlar…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Sanal ağ: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Kablolu"
 
@@ -391,16 +362,16 @@ msgstr "Kapat"
 msgid "Unknown Device"
 msgstr "Bilinmeyen Aygıt"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Bilinmeyen tür: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Bağlantı Kesilemedi"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Şu anda bağlı olan ağın bağlantısı kesilemedi"
 
@@ -588,6 +559,31 @@ msgstr "proxy.ornek.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Bağlantı Noktası:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Uçak Modu Etkin"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Uçak Modu etkin olduğunda cihazınızın internet erişimi, tüm kablosuz ve "
+#~ "ethernet bağlantıları askıya alınacaktır.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Web’de gezinemez, ağ bağlantısı veya internet erişimi gerektiren "
+#~ "uygulamaları kullanamazsınız.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "İnternet gerektirmeyen uygulamalar ve diğer işlevler etkilenmeyecektir."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Seçili VPN bağlantısını unut…"

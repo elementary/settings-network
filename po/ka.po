@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-02-01 02:42+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "პროქსი"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "თვითმფრინავის რეჟიმი"
 
@@ -160,43 +160,13 @@ msgstr "ჰოტსპოტი"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "ვირტუალური"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "მოწყობილობები"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "თვითმრინავის რეჟიმი ჩართულია"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"როცა თვითმფრინავის რეჟიმი ჩართულია, დროს თქვენი მოწყობილობის ინტერნტთან და "
-"სხვა უსადენო ან Ethernet კავშირებთან წვდომა შეჩერდება.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"თქვენ ვერ შეძლებთ ინტერნეტის ან იმ პროგრამების გამოყენებას, რომლებიც ქსელთან "
-"კავშირის ან ინტერნეტთან წვდომას მოითხოვენ.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"აპლიკაციებს და სხვა ფუნქციებს, რომლებსაც ინტერნეტი არ სჭირდებათ, ეს არ "
-"შეეხება."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -206,16 +176,16 @@ msgstr "სადენიანი ქსელი მიუწვდომე�
 msgid "A network cable is not plugged in or may be broken"
 msgstr "ქსელის კაბელი შეერთებული არაა ან გაფუჭებულია"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "დამატებითი პარამეტრები…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "ვირტუალური ქსელი: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "მავთულით"
 
@@ -390,16 +360,16 @@ msgstr "დახურვა"
 msgid "Unknown Device"
 msgstr "უცნობი მოწყობილობა"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "უცნობი ტიპი: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "გათიშვის შეცდომა"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "ამჟამად მიერთებული ქსელიდან გათიშვა შეუძლებელია"
 
@@ -586,6 +556,32 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "პორტი:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "თვითმრინავის რეჟიმი ჩართულია"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "როცა თვითმფრინავის რეჟიმი ჩართულია, დროს თქვენი მოწყობილობის ინტერნტთან "
+#~ "და სხვა უსადენო ან Ethernet კავშირებთან წვდომა შეჩერდება.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "თქვენ ვერ შეძლებთ ინტერნეტის ან იმ პროგრამების გამოყენებას, რომლებიც "
+#~ "ქსელთან კავშირის ან ინტერნეტთან წვდომას მოითხოვენ.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "აპლიკაციებს და სხვა ფუნქციებს, რომლებსაც ინტერნეტი არ სჭირდებათ, ეს არ "
+#~ "შეეხება."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "მონიშნული VPN-ის დავიწყება…"

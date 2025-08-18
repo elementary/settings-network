@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/switchboard/"
@@ -146,7 +146,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Modalità Aereo"
 
@@ -162,43 +162,13 @@ msgstr "Hotspot"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuali"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Dispositivi"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "La modalità Aereo è attiva"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Mentre sei in modalità Aereo l'accesso a Internet del tuo dispositivo, e "
-"qualsiasi altro collegamento wireless o ethernet, verrà sospeso.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Non sarai in grado di navigare sul web o utilizzare applicazioni che "
-"richiedono una connessione di rete o l'accesso a Internet.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Le applicazioni e le altre funzionalità che non richiedono la connessione a "
-"Internet non saranno interessate."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -208,16 +178,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Impostazioni avanzate…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Rete virtuale: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Cablata"
 
@@ -396,16 +366,16 @@ msgstr "Chiudi"
 msgid "Unknown Device"
 msgstr "Dispositivo sconosciuto"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tipo sconosciuto: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Impossibile disconnettersi"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Impossibile disconnettersi dalla rete a cui si è attualmente connessi"
 
@@ -619,6 +589,32 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Porta:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "La modalità Aereo è attiva"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Mentre sei in modalità Aereo l'accesso a Internet del tuo dispositivo, e "
+#~ "qualsiasi altro collegamento wireless o ethernet, verrà sospeso.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Non sarai in grado di navigare sul web o utilizzare applicazioni che "
+#~ "richiedono una connessione di rete o l'accesso a Internet.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Le applicazioni e le altre funzionalità che non richiedono la connessione "
+#~ "a Internet non saranno interessate."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Dimentica VPN selezionata…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-02 14:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -144,7 +144,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "Välityspalvelin"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Lentokonetila"
 
@@ -160,43 +160,13 @@ msgstr "Yhteyspiste"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuaalinen"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Laitteet"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Lentokonetila on käytössä"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Lentokonetilassa laitteesi kaikki internet- ja langattomat yhteydet ovat "
-"pois käytöstä.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Et voi selata verkkosivuja tai käyttää verkko- tai internetyhteyden vaativia "
-"sovelluksia.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Sovellukset ja toiminnot, jotka eivät vaadi internetyhteyttä, jatkavat "
-"toimintaansa normaalisti."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -206,16 +176,16 @@ msgstr "Tämä langallinen verkko ei ole saatavilla"
 msgid "A network cable is not plugged in or may be broken"
 msgstr "Verkkokaapelia ei ole liitetty tai se saattaa olla rikki"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Lisäasetukset…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuaaliverkko: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Kiinteä"
 
@@ -392,16 +362,16 @@ msgstr "Sulje"
 msgid "Unknown Device"
 msgstr "Tuntematon laite"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Tuntematon tyyppi: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Yhteyden katkaiseminen epäonnistui"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Parhaillaan muodostetun verkkoyhteyden katkaiseminen ei onnistunut"
 
@@ -589,6 +559,32 @@ msgstr "proxy.esimerkki.com"
 msgid "Port:"
 msgstr "Portti:"
 
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Lentokonetila on käytössä"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Lentokonetilassa laitteesi kaikki internet- ja langattomat yhteydet ovat "
+#~ "pois käytöstä.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Et voi selata verkkosivuja tai käyttää verkko- tai internetyhteyden "
+#~ "vaativia sovelluksia.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Sovellukset ja toiminnot, jotka eivät vaadi internetyhteyttä, jatkavat "
+#~ "toimintaansa normaalisti."
+
 #~ msgid "Forget selected VPN…"
 #~ msgstr "Unohda valittu VPN…"
 
@@ -602,8 +598,8 @@ msgstr "Portti:"
 #~ "There are no available Wi-Fi connections or Wi-Fi devices connected to "
 #~ "this computer.\n"
 #~ msgstr ""
-#~ "Tässä tietokoneessa ei ole käytettävissä olevia wifi-yhteyksiä tai -"
-#~ "laitteita.\n"
+#~ "Tässä tietokoneessa ei ole käytettävissä olevia wifi-yhteyksiä tai "
+#~ "-laitteita.\n"
 
 #~ msgid "Please connect at least one device to begin configuring the network."
 #~ msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/switchboard/"
@@ -139,7 +139,7 @@ msgstr "WLAN"
 msgid "Proxy"
 msgstr "प्रॉक्सी"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "विमान मोड"
 
@@ -155,41 +155,13 @@ msgstr "हॉटस्पॉट"
 msgid "VPN"
 msgstr "VPN"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "व्हर्च्युअल"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "उपकरण"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "विमान मोड सक्षम आहे"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"विमान मोडमध्ये असताना आपल्या डिव्हाइसचे इंटरनेट प्रवेश आणि कोणतेही वायरलेस आणि इथरनेट "
-"कनेक्शन निलंबित केले जातील.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"आपण वेब ब्राउझ करणे किंवा नेटवर्क कनेक्शन किंवा इंटरनेट प्रवेश आवश्यक असलेल्या अनुप्रयोगांचा "
-"वापर करण्यात अक्षम असाल.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr "इंटरनेटची आवश्यकता नसलेली अनुप्रयोग आणि इतर कार्ये अप्रभावित राहतील."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -199,16 +171,16 @@ msgstr "हे वायर्ड नेटवर्क अनुपलब्ध
 msgid "A network cable is not plugged in or may be broken"
 msgstr "नेटवर्क केबल प्लग इन केलेली नाही किंवा तुटलेली असू शकते"
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "प्रगत सेटिंग्ज…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "व्हर्च्युअल नेटवर्क:%s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "वायर्ड"
 
@@ -386,16 +358,16 @@ msgstr "बंद करा"
 msgid "Unknown Device"
 msgstr "अज्ञात उपकरण"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "अज्ञात प्रकार:%s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "डिस्कनेक्ट करण्यात अयशस्वी"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "सध्या कनेक्ट केलेल्या नेटवर्कवरून डिस्कनेक्ट करण्यात अक्षम"
 
@@ -608,6 +580,30 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "पोर्ट:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "विमान मोड सक्षम आहे"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "विमान मोडमध्ये असताना आपल्या डिव्हाइसचे इंटरनेट प्रवेश आणि कोणतेही वायरलेस आणि इथरनेट "
+#~ "कनेक्शन निलंबित केले जातील.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "आपण वेब ब्राउझ करणे किंवा नेटवर्क कनेक्शन किंवा इंटरनेट प्रवेश आवश्यक असलेल्या अनुप्रयोगांचा "
+#~ "वापर करण्यात अक्षम असाल.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr "इंटरनेटची आवश्यकता नसलेली अनुप्रयोग आणि इतर कार्ये अप्रभावित राहतील."
 
 #~ msgid "Forget selected VPN…"
 #~ msgstr "निवडलेले व्हीपीएन विसरा…"

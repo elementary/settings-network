@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-01-20 09:02+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/switchboard/"
@@ -139,7 +139,7 @@ msgstr "WLAN-reto"
 msgid "Proxy"
 msgstr "Prokurilo"
 
-#: src/Plug.vala:76 src/MainView.vala:64
+#: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
 msgstr "Senkonekta reĝimo"
 
@@ -155,42 +155,13 @@ msgstr "Retkaptejo"
 msgid "VPN"
 msgstr "VPN-reto"
 
-#: src/MainView.vala:35
+#: src/MainView.vala:36
 msgid "Virtual"
 msgstr "Virtuala"
 
-#: src/MainView.vala:36
+#: src/MainView.vala:37
 msgid "Devices"
 msgstr "Aparatoj"
-
-#: src/MainView.vala:75
-msgid "Airplane Mode Is Enabled"
-msgstr "Senkonekta reĝimo funkcianta"
-
-#: src/MainView.vala:76
-msgid ""
-"While in Airplane Mode your device's Internet access and any wireless and "
-"ethernet connections, will be suspended.\n"
-"\n"
-msgstr ""
-"Dum la senkonekta reĝimo funkcias, ĉiuj interretaj aliroj, sendrataj kaj "
-"drataj, paŭzos.\n"
-"\n"
-
-#: src/MainView.vala:77
-msgid ""
-"You will be unable to browse the web or use applications that require a "
-"network connection or Internet access.\n"
-msgstr ""
-"Neeblos foliumi interreton aŭ uzi aplikaĵojn postulantaj retan aliron aŭ "
-"interretan konekton.\n"
-
-#: src/MainView.vala:78
-msgid ""
-"Applications and other functions that do not require the Internet will be "
-"unaffected."
-msgstr ""
-"Aplikaĵoj kaj aliaj funkcioj ne postulantaj interreton restos netuŝitaj."
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
@@ -200,16 +171,16 @@ msgstr ""
 msgid "A network cable is not plugged in or may be broken"
 msgstr ""
 
-#: src/Views/EthernetPage.vala:53 src/Views/ModemPage.vala:46
+#: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
 msgstr "Altnivelaj agordoj…"
 
-#: src/Views/EthernetPage.vala:69
+#: src/Views/EthernetPage.vala:68
 #, c-format
 msgid "Virtual network: %s"
 msgstr "Virtuala reto: %s"
 
-#: src/Views/EthernetPage.vala:72
+#: src/Views/EthernetPage.vala:71
 msgid "Wired"
 msgstr "Drata"
 
@@ -389,16 +360,16 @@ msgstr "Fermi"
 msgid "Unknown Device"
 msgstr "Nekonata aparato"
 
-#: src/Widgets/Page.vala:92
+#: src/Widgets/Page.vala:91
 #, c-format
 msgid "Unknown type: %s "
 msgstr "Nekonata tipo: %s "
 
-#: src/Widgets/Page.vala:145
+#: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
 msgstr "Neeblis malkonektiĝi"
 
-#: src/Widgets/Page.vala:146
+#: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
 msgstr "Neeblis malkonektiĝi el la nune konektita reto"
 
@@ -612,6 +583,31 @@ msgstr "proxy.example.com"
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:193
 msgid "Port:"
 msgstr "Pordo:"
+
+#~ msgid "Airplane Mode Is Enabled"
+#~ msgstr "Senkonekta reĝimo funkcianta"
+
+#~ msgid ""
+#~ "While in Airplane Mode your device's Internet access and any wireless and "
+#~ "ethernet connections, will be suspended.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Dum la senkonekta reĝimo funkcias, ĉiuj interretaj aliroj, sendrataj kaj "
+#~ "drataj, paŭzos.\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "You will be unable to browse the web or use applications that require a "
+#~ "network connection or Internet access.\n"
+#~ msgstr ""
+#~ "Neeblos foliumi interreton aŭ uzi aplikaĵojn postulantaj retan aliron aŭ "
+#~ "interretan konekton.\n"
+
+#~ msgid ""
+#~ "Applications and other functions that do not require the Internet will be "
+#~ "unaffected."
+#~ msgstr ""
+#~ "Aplikaĵoj kaj aliaj funkcioj ne postulantaj interreton restos netuŝitaj."
 
 #, fuzzy
 #~ msgid "Edit VPN connection…"
