@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-10 20:02+0000\n"
+"POT-Creation-Date: 2025-08-15 14:21+0000\n"
 "PO-Revision-Date: 2024-12-09 11:10+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://l10n.elementary.io/"
@@ -32,56 +32,56 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/network.metainfo.xml.in:33 data/network.metainfo.xml.in:46
-#: data/network.metainfo.xml.in:57 data/network.metainfo.xml.in:76
-#: data/network.metainfo.xml.in:85 data/network.metainfo.xml.in:98
-#: data/network.metainfo.xml.in:107
+#: data/network.metainfo.xml.in:59 data/network.metainfo.xml.in:70
+#: data/network.metainfo.xml.in:89 data/network.metainfo.xml.in:98
+#: data/network.metainfo.xml.in:111 data/network.metainfo.xml.in:120
 msgid "Minor updates"
 msgstr "小型更新"
 
-#: data/network.metainfo.xml.in:35 data/network.metainfo.xml.in:50
-#: data/network.metainfo.xml.in:61 data/network.metainfo.xml.in:78
-#: data/network.metainfo.xml.in:87 data/network.metainfo.xml.in:100
-#: data/network.metainfo.xml.in:110
+#: data/network.metainfo.xml.in:35 data/network.metainfo.xml.in:48
+#: data/network.metainfo.xml.in:63 data/network.metainfo.xml.in:74
+#: data/network.metainfo.xml.in:91 data/network.metainfo.xml.in:100
+#: data/network.metainfo.xml.in:113 data/network.metainfo.xml.in:123
 msgid "Updated translations"
 msgstr "翻譯更新"
 
-#: data/network.metainfo.xml.in:48
+#: data/network.metainfo.xml.in:61
 msgid "Automatically select active network when opening"
 msgstr "開啟時自動選擇作用中網路"
 
-#: data/network.metainfo.xml.in:49
+#: data/network.metainfo.xml.in:62
 msgid "Restore sidebar position"
 msgstr "復原側邊欄的位置"
 
-#: data/network.metainfo.xml.in:59
+#: data/network.metainfo.xml.in:72
 msgid "Provide description text on the VPN page"
 msgstr "在 VPN 頁面上提供說明文字"
 
-#: data/network.metainfo.xml.in:60
+#: data/network.metainfo.xml.in:73
 msgid "Show connected Wi-Fi network name in sidebar"
 msgstr "在側邊欄顯示已連接的 Wi-Fi 網路名稱"
 
-#: data/network.metainfo.xml.in:71
+#: data/network.metainfo.xml.in:84
 msgid "New features"
 msgstr "新功能"
 
-#: data/network.metainfo.xml.in:73
+#: data/network.metainfo.xml.in:86
 msgid "WireGuard support"
 msgstr "WireGuard 支援"
 
-#: data/network.metainfo.xml.in:74
+#: data/network.metainfo.xml.in:87
 msgid "OWE support"
 msgstr "OWE 支援"
 
-#: data/network.metainfo.xml.in:94
+#: data/network.metainfo.xml.in:107
 msgid "Fixes:"
 msgstr "修正："
 
-#: data/network.metainfo.xml.in:96
+#: data/network.metainfo.xml.in:109
 msgid "Show correct info for WPA3 networks"
 msgstr "為 WPA3 網路顯示正確資訊"
 
-#: data/network.metainfo.xml.in:109
+#: data/network.metainfo.xml.in:122
 msgid "Fix an issue with wired connections repeatedly reconnecting"
 msgstr "修正有線網路不斷重新連線的問題"
 
