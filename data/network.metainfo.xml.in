@@ -38,6 +38,7 @@
       <issues>
         <issue url="https://github.com/elementary/switchboard-plug-network/issues/346">Airplane mode switch does not change when mode changed with wingpanel</issue>
         <issue url="https://github.com/elementary/switchboard-plug-network/issues/360">Airplane mode seems to disable wired network, too</issue>
+        <issue url="https://github.com/elementary/switchboard-plug-network/issues/405">Height is forced larger than default</issue>
       </issues>
     </release>
 
