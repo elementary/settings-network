@@ -1,3 +1,9 @@
+io.elementary.settings.network (8.2.0) noble; urgency=medium
+
+  * Release 8.2.0 (#442)
+
+ -- elementary OS Team <builds@elementary.io>  Wed, 10 Sep 2025 16:52:04 +0000
+
 io.elementary.settings.network (8.1.0) noble; urgency=medium
 
   * Release 8.1.0 (#427)
