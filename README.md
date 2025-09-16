@@ -1,6 +1,6 @@
 # Networking Settings
-[![Packaging status](https://repology.org/badge/tiny-repos/switchboard-plug-networking.svg)](https://repology.org/metapackage/switchboard-plug-networking)
-[![Translation status](https://l10n.elementary.io/widgets/switchboard/-/switchboard-plug-networking/svg-badge.svg)](https://l10n.elementary.io/engage/switchboard/?utm_source=widget)
+[![Packaging status](https://repology.org/badge/tiny-repos/switchboard-plug-networking.svg)](https://repology.org/project/switchboard-plug-networking/versions)
+[![Translation status](https://l10n.elementaryos.org/widget/settings/network/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
 
 ![screenshot](data/screenshot.png?raw=true)
 
