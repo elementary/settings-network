@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2024-12-12 05:50+0000\n"
-"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
-"Language-Team: Spanish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-networking/es/>\n"
+"PO-Revision-Date: 2025-10-11 18:20+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <italo@gp-mail.com>\n"
+"Language-Team: Spanish <https://l10n.elementaryos.org/projects/settings/"
+"network/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.4\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-01-10 05:59+0000\n"
 
 #: src/Utils.vala:21
@@ -174,7 +174,7 @@ msgstr "Esta red cableada no está disponible"
 
 #: src/Views/EthernetPage.vala:37
 msgid "A network cable is not plugged in or may be broken"
-msgstr "Un cable de red no está conectado o no funciona"
+msgstr "No se ha conectado un cable de red, o no funciona"
 
 #: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
