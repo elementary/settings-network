@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2024-01-20 09:02+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-networking/sv/>\n"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"network/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-12-24 05:03+0000\n"
 
 #: src/Utils.vala:21
@@ -38,7 +38,7 @@ msgstr "Ohanterad"
 
 #: src/Utils.vala:99
 msgid "In preparation"
-msgstr "i förberedelse"
+msgstr "Förbereds"
 
 #: src/Utils.vala:101
 msgid "Connecting…"
@@ -49,8 +49,6 @@ msgid "Requires more information"
 msgstr "Kräver mer information"
 
 #: src/Utils.vala:105
-#, fuzzy
-#| msgid "Requesting adresses…"
 msgid "Requesting addresses…"
 msgstr "Begär adresser…"
 
@@ -172,11 +170,11 @@ msgstr "Enheter"
 
 #: src/Views/EthernetPage.vala:36
 msgid "This Wired Network is Unavailable"
-msgstr ""
+msgstr "Detta trådbundna nätverk är inte tillgängligt"
 
 #: src/Views/EthernetPage.vala:37
 msgid "A network cable is not plugged in or may be broken"
-msgstr ""
+msgstr "En nätverkskabel är inte inkopplad eller kan vara trasig"
 
 #: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
@@ -188,18 +186,16 @@ msgid "Virtual network: %s"
 msgstr "Virtuellt nätverk: %s"
 
 #: src/Views/EthernetPage.vala:71
-#, fuzzy
 msgid "Wired"
-msgstr "Trådlöst"
+msgstr "Kabelansluten"
 
 #: src/Views/HotspotPage.vala:38
-#, fuzzy
 msgid ""
 "Enabling Hotspot will disconnect from any connected wireless networks. You "
 "will not be able to connect to a wireless network while Hotspot is active."
 msgstr ""
-"Du kommer inte att kunna ansluta till ett trådlöst nätverk medan surfzon är "
-"aktiverat."
+"Om du aktiverar Hotspot kopplas du bort från alla anslutna trådlösa nätverk. "
+"Du kan inte ansluta till ett trådlöst nätverk när Hotspot är aktivt."
 
 #: src/Views/HotspotPage.vala:54
 msgid "Show Password"
@@ -231,16 +227,12 @@ msgid "Hotspot %s"
 msgstr "Surfzon %s"
 
 #: src/Views/HotspotPage.vala:139
-#, fuzzy
-#| msgid "Password needs to be at least 8 characters long."
 msgid "Password needs to be at least 8 characters long"
-msgstr "Lösenord måste vara minst åtta tecken långt."
+msgstr "Lösenordet måste vara minst 8 tecken långt"
 
 #: src/Views/HotspotPage.vala:141
-#, fuzzy
-#| msgid "Password needs to be at least 8 characters long."
 msgid "Password is at least 8 characters long"
-msgstr "Lösenord måste vara minst åtta tecken långt."
+msgstr "Lösenordet är minst 8 tecken långt"
 
 #: src/Views/ModemPage.vala:43 src/Views/WifiPage.vala:81
 msgid "Edit Connections…"
@@ -286,10 +278,13 @@ msgid ""
 "from your internet service provider. It can't protect passwords from "
 "attackers or prevent websites from identifying you."
 msgstr ""
+"Ett virtuellt privat nätverk kan dölja nätverkstrafik på publika nätverk "
+"eller från din internetleverantör. Det kan inte skydda lösenord från "
+"angripare eller hindra webbplatser från att identifiera dig."
 
 #: src/Views/VPNPage.vala:37
 msgid "VPN removed"
-msgstr ""
+msgstr "VPN borttaget"
 
 #: src/Views/VPNPage.vala:38
 msgid "Undo"
@@ -304,24 +299,20 @@ msgid "Add a new VPN connection to begin."
 msgstr "Lägg till en ny VPN-anslutning för att börja."
 
 #: src/Views/VPNPage.vala:54
-#, fuzzy
-#| msgid "Add VPN Connection…"
 msgid "Add Connection…"
-msgstr "Lägg till VPN-anslutning…"
+msgstr "Lägg till anslutning…"
 
 #: src/Views/VPNPage.vala:304 src/Widgets/VPN/VPNInfoDialog.vala:80
-#, fuzzy
 msgid "Failed to run Connection Editor"
-msgstr "Misslyckades att köra anslutningsredigeraren."
+msgstr "Connection Editor kunde inte köras"
 
 #: src/Views/VPNPage.vala:305 src/Widgets/VPN/VPNInfoDialog.vala:81
 msgid "The program \"nm-connection-editor\" may not be installed."
-msgstr ""
+msgstr "Programmet \"nm-connection-editor\" kanske inte är installerat."
 
 #: src/Views/VPNPage.vala:326 src/Widgets/VPN/VPNMenuItem.vala:118
-#, fuzzy
 msgid "Failed to remove VPN connection"
-msgstr "Misslyckades med att ansluta"
+msgstr "VPN-anslutningen kunde inte tas bort"
 
 #: src/Views/WifiPage.vala:53
 msgid "This device is in Hotspot Mode"
@@ -357,17 +348,14 @@ msgid "Scanning for Access Points…"
 msgstr "Söker efter åtkomstpunkter…"
 
 #: src/Views/WifiPage.vala:371
-#, fuzzy
-#| msgid "Advanced Settings…"
 msgid "Advanced…"
-msgstr "Avancerade inställningar…"
+msgstr "Avancerat…"
 
 #: src/Views/WifiPage.vala:372 src/Widgets/VPN/VPNInfoDialog.vala:53
 msgid "Close"
 msgstr "Stäng"
 
 #: src/Widgets/Page.vala:36
-#, fuzzy
 msgid "Unknown Device"
 msgstr "Okänd enhet"
 
@@ -377,16 +365,12 @@ msgid "Unknown type: %s "
 msgstr "Okänd typ: %s "
 
 #: src/Widgets/Page.vala:144
-#, fuzzy
 msgid "Failed To Disconnect"
-msgstr "Misslyckades med att ansluta"
+msgstr "Misslyckades med att koppla bort"
 
 #: src/Widgets/Page.vala:145
-#, fuzzy
 msgid "Unable to disconnect from the currently connected network"
-msgstr ""
-"Att slå på hotspotläget kommer innebära att datorn kopplas från annat "
-"anslutet trådlöst nätverk."
+msgstr "Det går inte att koppla bort från det anslutna nätverket"
 
 #: src/Widgets/InfoBox.vala:31
 msgid "Sent"
@@ -397,86 +381,76 @@ msgid "Received"
 msgstr "Mottaget"
 
 #: src/Widgets/InfoBox.vala:58
-#, fuzzy
-#| msgid "IPv6 Address:"
 msgid "IPv6 Addresses"
-msgstr "IPv6-adress:"
+msgstr "IPv6-adresser"
 
 #: src/Widgets/InfoBox.vala:62
-#, fuzzy
-#| msgid "Subnet mask:"
 msgid "Subnet Mask"
-msgstr "Subnätmask:"
+msgstr "Subnätmask"
 
 #: src/Widgets/InfoBox.vala:69
-#, fuzzy
-#| msgid "Router:"
 msgid "Router"
-msgstr "Router:"
+msgstr "Router"
 
 #: src/Widgets/InfoBox.vala:76
 msgid "DNS"
-msgstr ""
+msgstr "DNS"
 
 #: src/Widgets/InfoBox.vala:87
 msgid "Reduce background data usage"
-msgstr ""
+msgstr "Minska användningen av bakgrundsdata"
 
 #: src/Widgets/InfoBox.vala:90
 msgid ""
 "While connected to this network, background tasks like automatic updates "
 "will be paused."
 msgstr ""
+"När du är ansluten till det här nätverket pausas bakgrundsuppgifter som "
+"automatiska uppdateringar."
 
 #: src/Widgets/InfoBox.vala:103
-#, fuzzy
-#| msgid "Automatic proxy configuration"
 msgid "Automatically connect"
-msgstr "Automatisk proxykonfiguration"
+msgstr "Anslut automatiskt"
 
 #: src/Widgets/InfoBox.vala:229
 msgid "Failed To Configure Settings"
-msgstr ""
+msgstr "Misslyckades med att konfigurera inställningar"
 
 #: src/Widgets/InfoBox.vala:230
 msgid "Unable to save changes to the disk"
-msgstr ""
+msgstr "Det går inte att spara ändringar på disken"
 
 #: src/Widgets/WifiMenuItem.vala:89
 msgid "Settings…"
 msgstr "Inställningar…"
 
 #: src/Widgets/WifiMenuItem.vala:155
-#, fuzzy
 msgid "40/64-bit WEP encrypted"
-msgstr "Detta nätverk använder 40/64-bitars WEP-kryptering"
+msgstr "40/64-bitars WEP-kryptering"
 
 #: src/Widgets/WifiMenuItem.vala:158
-#, fuzzy
 msgid "104/128-bit WEP encrypted"
-msgstr "Detta nätverk använder 104/128-bitars WEP-kryptering"
+msgstr "104/128-bitars WEP-kryptering"
 
 #: src/Widgets/WifiMenuItem.vala:161
-#, fuzzy
 msgid "WPA3 encrypted"
-msgstr "Detta nätverk använder 40/64-bitars WEP-kryptering"
+msgstr "WPA3 krypterad"
 
 #: src/Widgets/WifiMenuItem.vala:164
 msgid "WPA encrypted"
-msgstr ""
+msgstr "WPA-krypterad"
 
 #: src/Widgets/WifiMenuItem.vala:167
-#, fuzzy
 msgid "Passwordless encrypted"
-msgstr "Detta nätverk använder 40/64-bitars WEP-kryptering"
+msgstr "Krypterad utan lösenord"
 
 #: src/Widgets/WifiMenuItem.vala:170
 msgid "Encrypted"
-msgstr ""
+msgstr "Krypterad"
 
 #: src/Widgets/WifiMenuItem.vala:172
 msgid "Unsecured"
-msgstr ""
+msgstr "Utan säkerhet"
 
 #: src/Widgets/WifiMenuItem.vala:181 src/Widgets/VPN/VPNMenuItem.vala:81
 #: src/Widgets/VPN/VPNMenuItem.vala:141 src/Widgets/VPN/VPNMenuItem.vala:158
@@ -485,9 +459,8 @@ msgid "Connect"
 msgstr "Anslut"
 
 #: src/Widgets/WifiMenuItem.vala:186
-#, fuzzy
 msgid "Could not be connected to"
-msgstr "Kunde inte ansluta till detta trådlösa nätverk."
+msgstr "Kunde inte anslutas till"
 
 #: src/Widgets/WifiMenuItem.vala:191
 msgid "Connecting"
@@ -498,26 +471,20 @@ msgid "Disconnect"
 msgstr "Koppla från"
 
 #: src/Widgets/VPN/VPNInfoDialog.vala:52
-#, fuzzy
-#| msgid "Edit Connections…"
 msgid "Edit Connection…"
-msgstr "Redigera anslutningar…"
+msgstr "Redigera anslutning…"
 
 #: src/Widgets/VPN/VPNMenuItem.vala:69
-#, fuzzy
-#| msgid "Failed to connect"
 msgid "Forget connection"
-msgstr "Misslyckades med att ansluta"
+msgstr "Glöm anslutning"
 
 #: src/Widgets/VPN/VPNMenuItem.vala:75
-#, fuzzy
-#| msgid "Connection:"
 msgid "Connection info"
-msgstr "Anslutning:"
+msgstr "Anslutningsinformation"
 
 #: src/Widgets/VPN/VPNMenuItem.vala:119
 msgid "Cannot remove an active VPN connection."
-msgstr ""
+msgstr "Det går inte att ta bort en aktiv VPN-anslutning."
 
 #: src/Widgets/Proxy/ProxyExceptionsPage.vala:22
 msgid "Ignored hosts"
@@ -533,10 +500,8 @@ msgid "Add Exception"
 msgstr "Lägg till undantag"
 
 #: src/Widgets/Proxy/ProxyExceptionsPage.vala:83
-#, fuzzy
-#| msgid "Add Exception"
 msgid "Remove exception"
-msgstr "Lägg till undantag"
+msgstr "Ta bort undantag"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:12
 msgid "Automatic proxy configuration"
@@ -555,28 +520,20 @@ msgid "Use this proxy server for all protocols"
 msgstr "Använd den här proxyservern för alla protokoll"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:23
-#, fuzzy
-#| msgid "HTTP Proxy:"
 msgid "HTTP Proxy"
-msgstr "HTTP-proxy:"
+msgstr "HTTP-proxy"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:24
-#, fuzzy
-#| msgid "HTTPS Proxy:"
 msgid "HTTPS Proxy"
-msgstr "HTTPS-proxy:"
+msgstr "HTTPS-proxy"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:25
-#, fuzzy
-#| msgid "FTP Proxy:"
 msgid "FTP Proxy"
-msgstr "FTP-proxy:"
+msgstr "FTP-proxy"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:26
-#, fuzzy
-#| msgid "SOCKS Host:"
 msgid "SOCKS Host"
-msgstr "SOCKS-värd:"
+msgstr "SOCKS-värd"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:33
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:138
