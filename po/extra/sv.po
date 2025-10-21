@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "networking-plug-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/network.metainfo.xml.in:9
 msgid "Network Settings"
@@ -29,7 +29,7 @@ msgstr "Hantera nätverksenheter och anslutningsmöjligheter"
 
 #: data/network.metainfo.xml.in:25
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/network.metainfo.xml.in:33 data/network.metainfo.xml.in:46
 #: data/network.metainfo.xml.in:59 data/network.metainfo.xml.in:70
@@ -43,7 +43,7 @@ msgstr ""
 #: data/network.metainfo.xml.in:91 data/network.metainfo.xml.in:100
 #: data/network.metainfo.xml.in:113 data/network.metainfo.xml.in:123
 msgid "Updated translations"
-msgstr ""
+msgstr "Uppdaterade översättningar"
 
 #: data/network.metainfo.xml.in:61
 msgid "Automatically select active network when opening"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: data/network.metainfo.xml.in:107
 msgid "Fixes:"
-msgstr ""
+msgstr "Åtgärdar:"
 
 #: data/network.metainfo.xml.in:109
 msgid "Show correct info for WPA3 networks"
