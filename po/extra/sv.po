@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2025-10-22 08:57+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "networking-plug-extra/sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/network.metainfo.xml.in:9
 msgid "Network Settings"
-msgstr ""
+msgstr "Nätverksinställningar"
 
 #: data/network.metainfo.xml.in:10
 msgid "Manage network devices and connectivity"
@@ -47,7 +47,7 @@ msgstr "Uppdaterade översättningar"
 
 #: data/network.metainfo.xml.in:61
 msgid "Automatically select active network when opening"
-msgstr ""
+msgstr "Välj automatiskt aktivt nätverk vid öppning"
 
 #: data/network.metainfo.xml.in:62
 msgid "Restore sidebar position"
@@ -55,23 +55,23 @@ msgstr "Återställ sidofältets position"
 
 #: data/network.metainfo.xml.in:72
 msgid "Provide description text on the VPN page"
-msgstr ""
+msgstr "Ange beskrivningstext på VPN-sidan"
 
 #: data/network.metainfo.xml.in:73
 msgid "Show connected Wi-Fi network name in sidebar"
-msgstr ""
+msgstr "Visa namnet på det anslutna Wi-Fi-nätverket i sidofältet"
 
 #: data/network.metainfo.xml.in:84
 msgid "New features"
-msgstr ""
+msgstr "Nya funktioner"
 
 #: data/network.metainfo.xml.in:86
 msgid "WireGuard support"
-msgstr ""
+msgstr "Stöd för WireGuard"
 
 #: data/network.metainfo.xml.in:87
 msgid "OWE support"
-msgstr ""
+msgstr "Stöd för OWE"
 
 #: data/network.metainfo.xml.in:107
 msgid "Fixes:"
@@ -79,8 +79,10 @@ msgstr "Åtgärdar:"
 
 #: data/network.metainfo.xml.in:109
 msgid "Show correct info for WPA3 networks"
-msgstr ""
+msgstr "Visa korrekt information för WPA3-nätverk"
 
 #: data/network.metainfo.xml.in:122
 msgid "Fix an issue with wired connections repeatedly reconnecting"
 msgstr ""
+"Åtgärda ett problem med trådbundna anslutningar som upprepade gånger "
+"återansluter"
