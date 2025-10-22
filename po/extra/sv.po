@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 08:57+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "networking-plug-extra/sv/>\n"
@@ -36,7 +36,7 @@ msgstr "elementary, Inc."
 #: data/network.metainfo.xml.in:89 data/network.metainfo.xml.in:98
 #: data/network.metainfo.xml.in:111 data/network.metainfo.xml.in:120
 msgid "Minor updates"
-msgstr ""
+msgstr "Mindre uppdateringar"
 
 #: data/network.metainfo.xml.in:35 data/network.metainfo.xml.in:48
 #: data/network.metainfo.xml.in:63 data/network.metainfo.xml.in:74
@@ -51,7 +51,7 @@ msgstr ""
 
 #: data/network.metainfo.xml.in:62
 msgid "Restore sidebar position"
-msgstr ""
+msgstr "Återställ sidofältets position"
 
 #: data/network.metainfo.xml.in:72
 msgid "Provide description text on the VPN page"
