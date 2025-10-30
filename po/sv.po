@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-networking\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-15 14:21+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
+"PO-Revision-Date: 2025-10-31 10:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "network/sv/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: src/Utils.vala:21
 msgid "Unknown"
-msgstr "Okänd"
+msgstr "Okänt"
 
 #: src/Utils.vala:93
 msgid "Connected"
@@ -70,7 +70,7 @@ msgstr "Misslyckades med att ansluta"
 
 #: src/Utils.vala:115
 msgid "Cable unplugged"
-msgstr "Kabeln är frånkopplad"
+msgstr "Kabeln är inte ansluten"
 
 #: src/Utils.vala:125 src/Plug.vala:70
 msgid "Ethernet"
@@ -94,7 +94,7 @@ msgstr "OLPC XO"
 
 #: src/Utils.vala:137
 msgid "WiMAX Broadband"
-msgstr "WiMAX bredband"
+msgstr "WiMAX-bredband"
 
 #: src/Utils.vala:139 src/Views/ModemPage.vala:69
 msgid "Modem"
@@ -142,7 +142,7 @@ msgstr "WLAN"
 
 #: src/Plug.vala:75 src/Views/ProxyPage.vala:29
 msgid "Proxy"
-msgstr "Proxy"
+msgstr "Proxyserver"
 
 #: src/Plug.vala:76 src/MainView.vala:65
 msgid "Airplane Mode"
@@ -174,7 +174,7 @@ msgstr "Detta trådbundna nätverk är inte tillgängligt"
 
 #: src/Views/EthernetPage.vala:37
 msgid "A network cable is not plugged in or may be broken"
-msgstr "En nätverkskabel är inte inkopplad eller kan vara trasig"
+msgstr "En nätverkskabel är inte ansluten eller kan vara trasig"
 
 #: src/Views/EthernetPage.vala:52 src/Views/ModemPage.vala:46
 msgid "Advanced Settings…"
@@ -194,8 +194,8 @@ msgid ""
 "Enabling Hotspot will disconnect from any connected wireless networks. You "
 "will not be able to connect to a wireless network while Hotspot is active."
 msgstr ""
-"Om du aktiverar Hotspot kopplas du bort från alla anslutna trådlösa nätverk. "
-"Du kan inte ansluta till ett trådlöst nätverk när Hotspot är aktivt."
+"Om du aktiverar Surfzon kopplas du bort från alla anslutna trådlösa nätverk. "
+"Du kan inte ansluta till ett trådlöst nätverk när Surfzon är aktivt."
 
 #: src/Views/HotspotPage.vala:54
 msgid "Show Password"
@@ -219,7 +219,7 @@ msgstr "Anslutning:"
 
 #: src/Views/HotspotPage.vala:109
 msgid "Hotspot Settings…"
-msgstr "Surfzoninställningar…"
+msgstr "Surfzonsinställningar…"
 
 #: src/Views/HotspotPage.vala:132
 #, c-format
@@ -246,7 +246,7 @@ msgstr "Modem: %s"
 #: src/Views/ModemPage.vala:65
 #, c-format
 msgid "Mobile Broadband: %s"
-msgstr "Mobilt bredband; %s"
+msgstr "Mobilt bredband: %s"
 
 #: src/Views/ModemPage.vala:71
 msgid "Mobile Broadband"
@@ -284,7 +284,7 @@ msgstr ""
 
 #: src/Views/VPNPage.vala:37
 msgid "VPN removed"
-msgstr "VPN borttaget"
+msgstr "VPN togs bort"
 
 #: src/Views/VPNPage.vala:38
 msgid "Undo"
@@ -304,7 +304,7 @@ msgstr "Lägg till anslutning…"
 
 #: src/Views/VPNPage.vala:304 src/Widgets/VPN/VPNInfoDialog.vala:80
 msgid "Failed to run Connection Editor"
-msgstr "Connection Editor kunde inte köras"
+msgstr "Anslutningsredigerare kunde inte köras"
 
 #: src/Views/VPNPage.vala:305 src/Widgets/VPN/VPNInfoDialog.vala:81
 msgid "The program \"nm-connection-editor\" may not be installed."
@@ -316,11 +316,11 @@ msgstr "VPN-anslutningen kunde inte tas bort"
 
 #: src/Views/WifiPage.vala:53
 msgid "This device is in Hotspot Mode"
-msgstr "Den här enheten agerar som en surfzon"
+msgstr "Den här enheten är i Surfzonsläge"
 
 #: src/Views/WifiPage.vala:54
 msgid "Turn off the Hotspot Mode to connect to other Access Points."
-msgstr "Inaktivera surfzonen för att ansluta till andra åtkomstpunkter."
+msgstr "Inaktivera Surfzonsläget för att ansluta till andra åtkomstpunkter."
 
 #: src/Views/WifiPage.vala:84
 msgid "Connect to Hidden Network…"
@@ -332,11 +332,11 @@ msgstr "Inga åtkomstpunkter tillgängliga"
 
 #: src/Views/WifiPage.vala:91
 msgid "There are no wireless access points within range."
-msgstr "Det finns inga trådlösa accesspunkter inom räckhåll."
+msgstr "Det finns inga trådlösa åtkomstpunkter inom räckhåll."
 
 #: src/Views/WifiPage.vala:94
 msgid "Wireless Is Disabled"
-msgstr "Tråslöst är inaktiverat"
+msgstr "Trådlöst är inaktiverat"
 
 #: src/Views/WifiPage.vala:95
 msgid "Enable wireless to discover nearby wireless access points."
@@ -366,11 +366,11 @@ msgstr "Okänd typ: %s "
 
 #: src/Widgets/Page.vala:144
 msgid "Failed To Disconnect"
-msgstr "Misslyckades med att koppla bort"
+msgstr "Misslyckades med att koppla från"
 
 #: src/Widgets/Page.vala:145
 msgid "Unable to disconnect from the currently connected network"
-msgstr "Det går inte att koppla bort från det anslutna nätverket"
+msgstr "Det går inte att koppla från det anslutna nätverket"
 
 #: src/Widgets/InfoBox.vala:31
 msgid "Sent"
@@ -386,7 +386,7 @@ msgstr "IPv6-adresser"
 
 #: src/Widgets/InfoBox.vala:62
 msgid "Subnet Mask"
-msgstr "Subnätmask"
+msgstr "Delnätmask"
 
 #: src/Widgets/InfoBox.vala:69
 msgid "Router"
@@ -434,7 +434,7 @@ msgstr "104/128-bitars WEP-kryptering"
 
 #: src/Widgets/WifiMenuItem.vala:161
 msgid "WPA3 encrypted"
-msgstr "WPA3 krypterad"
+msgstr "WPA3-krypterad"
 
 #: src/Widgets/WifiMenuItem.vala:164
 msgid "WPA encrypted"
@@ -450,7 +450,7 @@ msgstr "Krypterad"
 
 #: src/Widgets/WifiMenuItem.vala:172
 msgid "Unsecured"
-msgstr "Utan säkerhet"
+msgstr "Ingen säkerhet"
 
 #: src/Widgets/WifiMenuItem.vala:181 src/Widgets/VPN/VPNMenuItem.vala:81
 #: src/Widgets/VPN/VPNMenuItem.vala:141 src/Widgets/VPN/VPNMenuItem.vala:158
@@ -460,7 +460,7 @@ msgstr "Anslut"
 
 #: src/Widgets/WifiMenuItem.vala:186
 msgid "Could not be connected to"
-msgstr "Kunde inte anslutas till"
+msgstr "Kunde inte ansluta till"
 
 #: src/Widgets/WifiMenuItem.vala:191
 msgid "Connecting"
@@ -542,12 +542,12 @@ msgstr "Återställ inställningar"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:129
 msgid "Are you sure you want to reset all Proxy settings?"
-msgstr "Är du säker på att du vill återställa alla proxy-inställningar?"
+msgstr "Är du säker på att du vill återställa alla proxyinställningar?"
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:130
 msgid "All host and port settings will be cleared and can not be restored."
 msgstr ""
-"Alla värd- och portinställningar kommer att rensas och kan inte återställas."
+"Alla värd- och portinställningar kommer att tömmas och kan inte återställas."
 
 #: src/Widgets/Proxy/ProxyConfigurationPage.vala:183
 msgid "proxy.example.com"
