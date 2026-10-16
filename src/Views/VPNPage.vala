@@ -88,7 +88,10 @@ public class Network.VPNPage : Network.Widgets.Page {
         child = main_overlay;
 
         add_button.clicked.connect (() => {
-            try_connection_editor ("--create --type=vpn");
+            var connection_dialog = new VPNConnectionDialog () {
+                transient_for = (Gtk.Window) get_root ()
+            };
+            connection_dialog.present ();
         });
 
         remove_vpn_toast.default_action.connect (() => {
@@ -288,31 +291,6 @@ public class Network.VPNPage : Network.Widgets.Page {
                 });
                 break;
             }
-        }
-    }
-
-    private void try_connection_editor (string args) {
-        try {
-            var appinfo = AppInfo.create_from_commandline (
-                "nm-connection-editor %s".printf (args),
-                null,
-                GLib.AppInfoCreateFlags.NONE
-            );
-            appinfo.launch (null, null);
-        } catch (Error error) {
-            var dialog = new Granite.MessageDialog (
-                _("Failed to run Connection Editor"),
-                _("The program \"nm-connection-editor\" may not be installed."),
-                new ThemedIcon ("network-vpn"),
-                Gtk.ButtonsType.CLOSE
-            ) {
-                badge_icon = new ThemedIcon ("dialog-error"),
-                modal = true,
-                transient_for = (Gtk.Window) get_root ()
-            };
-            dialog.show_error_details (error.message);
-            dialog.present ();
-            dialog.response.connect (dialog.destroy);
         }
     }
 
